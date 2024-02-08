@@ -32,7 +32,6 @@ import PaymentsComponent from '@/components/payTips/PaymentsComponent.vue'
 import { useCounterStore } from '@/stores/counter'
 
 const payTip = ref<number>()
-const employersTip = ref<number>()
 const payMethod = ref<string>('')
 const isResetValues = ref<boolean>(false)
 const payMethods = ['Efectivo', 'Tarjeta de crédito', 'Tarjeta débito']
